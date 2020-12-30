@@ -29,5 +29,5 @@ jobs:
       - name: '运行【企鹅读书】' 
         run: python3 ./scripts/qqreadsbox.py 
         env:
-            CONFIG: ${{ secrets.BOX }}
+            CONFIG: ${{ secrets.CONFIG }}
 
