@@ -7,7 +7,7 @@ on:
   watch:
     type: [started]
   repository_dispatch:
-    types: qqreadspy
+    types: qqreads
 
 jobs:
   build:
