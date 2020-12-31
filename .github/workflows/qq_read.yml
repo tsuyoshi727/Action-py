@@ -3,7 +3,7 @@ name: 企鹅读书
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 */1 * * *'
+    - cron: '51 */1 * * *'
   watch:
     type: [started]
   repository_dispatch:
